@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content=
+        "width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="landingpage.css">
+    <title>Landing Page</title>
+</head>
+
+<body style="background-color:black;">
+    <nav>
+        <div style="font-family: cursive;" class="heading">Nescafe</div>
+        <span class="sideMenuButton" 
+            onclick="openNavbar()">
+            &#9776
+        </span>
+
+        <div style="font-family: cursive;" class="navbar">
+            <ul>
+                <li><a href="#Home">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Sign Up</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Side navigation bar for 
+        responsive website -->
+    <div class="sideNavigationBar" 
+        id="sideNavigationBar">
+        <a href="#" class="closeButton" 
+            onclick="closeNavbar()">
+            &#x274C
+        </a>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Sign Up</a>
+    </div>
+
+    <!-- Content -->
+    <div class="line" id="Home">
+        <div class="side1">
+            <h1 style="font-family: cursive;">Nescafe</h1>
+            <br>
+            <br>
+            <button>
+                <a style="font-family: cursive;" href=
+"https://www.justdial.com/Narnaul/Suryanshi-Education-Institute/9999P1282-1282-170427152208-V6S1_BZDET">
+                    Explore More
+                </a>
+            </button>
+        </div>
+        <div class="side2">
+            <img src=
+"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSytQkGP8LEPJ81WvSzh8r76gyOJV8eZ28FFA&s"
+                width="500">
+        </div>
+    </div>
+    <br>
+    <br>
+
+    <section class="about" id="My Projects">
+        <div class="content">
+            <div style="color: white;font-family: cursive;" class="title">
+                <span>Reasons to drink NESCAFE</span>
+            </div>
+            <div class="boxes">
+                <div class="box">
+                    <div class="topic">
+                        <a style="font-family: cursive;" target="_blank">
+                           Antioxidants
+                        </a>
+                    </div>
+                    <p style="font-family: cursive;">
+                       Nescafé coffee is full of antioxidants, especially polyphenols, which help your body and cells function well
+                    </p>
+                </div>
+                <div class="box">
+
+                    <div class="topic">
+                        <a font-family: cursive; href="" target="_blank">
+                           Weight loss
+
+                        </a>
+                    </div>
+                    <p style="font-family: cursive;">
+                       Caffeine can help with weight loss by speeding up thermogenesis, the process by which your body burns fat
+                    </p>
+                </div>
+
+                <div class="box">
+                    <div class="topic">
+                        <a style="font-family: cursive;" href="" target="_blank">
+                           Heart health
+                        </a>
+                    </div>
+                    <p style="font-family: cursive;">
+                        Coffee may protect against arterial damage caused by inflammation, which can support heart health.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="content">
+            <div style="color: white;font-family: cursive;" class="title"><span>Sign Up</span></div>
+            <div class="contactMenu">
+                <div class="input1">
+                    <div style="color: white;font-family: cursive;" class="label1">Your Name</div>
+                    <div class="input2">
+                        <input type="text" 
+                            placeholder="Enter your Name here">
+                    </div>
+                    <div class="label1">
+                        <label style="font-family: cursive;">Your Email</label>
+                    </div>
+                    <div class="input2">
+                        <input type="text" 
+                            placeholder="Enter your Email here">
+                    </div>
+                    <div class="label1">
+                        <label style="font-family: cursive;">Your Password</label>
+                    </div>
+                    <div class="input2">
+                        <input type="text" 
+                            placeholder="Enter your Password here">
+                    </div>
+                    <div style="color: green;font-family: cursive;" class="button">
+                        <button style="font-family:cursive;">Sign Up</button>
+                    </div>
+                </div>
+                <div class="input3">
+                    <div class="rightside1">
+                        <div style="color: white;font-family: cursive;" class="title1">
+                            <span>
+                                Contact Us
+                            </span>
+                        </div>
+                        <div style="color: white;font-family: cursive;" class="content1">
+                            Byramji towers,Nagpur
+                        </div>
+                        <div style="font-family: cursive;" class="title1">
+                            <span>More Information</span>
+                        </div>
+                        <div style="color: white;font-family: cursive;" class="content1">
+                            Greetings to all the Nescafe out there!
+                            We welcome you to the platform where we
+                            consistently strive to offer the best 
+                            of education. This platform has been 
+                            designed for every geek wishing to 
+                            expand their knowledge, share their 
+                            knowledge and is ready to grab their 
+                            dream job. We have millions of articles,
+                            live as well as online courses, thousands 
+                            of tutorials and much more just for the 
+                            geek inside you.Thank you for choosing 
+                            and supporting us!
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Footer section -->
+    <footer>
+        <div class="footer">
+            <span>
+                Created By
+                <a href="https://www.geeksforgeeks.org/" 
+                    target="_blank">
+                    Sara Abrar Sheikh
+                </a>
+            </span>
+        </div>
+    </footer>
+    <script src="landingpage.js"></script>
+</body>
+
+</html>
